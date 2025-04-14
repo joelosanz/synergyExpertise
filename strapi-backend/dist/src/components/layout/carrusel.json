@@ -1,0 +1,14 @@
+{
+    "collectionName": "components_layout_carrusels",
+    "info": {
+        "displayName": "carrusel"
+    },
+    "options": {},
+    "attributes": {
+        "images": {
+            "type": "component",
+            "repeatable": true,
+            "component": "layout.images"
+        }
+    }
+}

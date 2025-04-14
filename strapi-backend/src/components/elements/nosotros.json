@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_elements_nosotros",
+  "info": {
+    "displayName": "nosotros",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "text": {
+      "type": "string"
+    }
+  }
+}

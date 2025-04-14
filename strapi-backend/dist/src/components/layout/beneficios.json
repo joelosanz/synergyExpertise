@@ -1,0 +1,35 @@
+{
+    "collectionName": "components_layout_beneficios",
+    "info": {
+        "displayName": "content-items",
+        "description": ""
+    },
+    "options": {},
+    "attributes": {
+        "heading": {
+            "type": "string"
+        },
+        "text": {
+            "type": "text"
+        },
+        "imageRight": {
+            "type": "boolean",
+            "default": true
+        },
+        "image": {
+            "type": "media",
+            "multiple": false,
+            "required": false,
+            "allowedTypes": [
+                "images",
+                "files"
+            ]
+        },
+        "item": {
+            "displayName": "item",
+            "type": "component",
+            "repeatable": true,
+            "component": "elements.item"
+        }
+    }
+}
